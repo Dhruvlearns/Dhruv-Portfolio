@@ -32,51 +32,57 @@ function Projects() {
       <motion.h2 className='intro' initial="hidden" animate="visible" variants={h2variant}>Projects I have worked on.</motion.h2>
       <motion.section initial="hidden" animate="visible" variants={projectSecVar}>
         <motion.div className="project" variants={h2variant}>
-          <a href="/" target="_blank"><h2>CloakTalk</h2></a>
+          <a href="/" target="_blank"><h2>StudySphere</h2></a>
           <p><FontAwesomeIcon icon={faCircleInfo} className="icon"/>
-          Anonymous Social meadia website for college students.
+           An innovative web platform designed as a one-stop destination for college students
+           The platform features an  <b> AI-powered chatbot </b> to provide instant support and personalized recommendations
           </p>
           <p><FontAwesomeIcon icon={faCode} className="icon" />
             MERN stack
-          </p>
-          <p><FontAwesomeIcon icon={faCalendarAlt} className="icon" />
-            2025
-          </p>
-          <p>
-          <FontAwesomeIcon icon={faGithub} className="icon" />
-            <a href="/goto/mixmaster" target="_blank"> Git Repository</a>
-          </p>
-        </motion.div>
-        <motion.div className="project" variants={h2variant}>
-          <a href="/" target="_blank"><h2>Multiplayer Tic-Tac-Toe</h2></a>
-          <p><FontAwesomeIcon icon={faCircleInfo} className="icon" />
-            Tic-Tac-Toe with real time updates using websockets.
-          </p>
-          <p><FontAwesomeIcon icon={faCode} className="icon" />
-            React, Node, sockets.io
           </p>
           <p><FontAwesomeIcon icon={faCalendarAlt} className="icon" />
             2024
           </p>
           <p>
           <FontAwesomeIcon icon={faGithub} className="icon" />
-            <a href="/goto/mixmaster" target="_blank"> Git Repository</a>
+            <a href="https://dhruvlearns.github.io/StudySphere/" target="_blank" rel="noopener noreferrer"
+            > Git Repository</a>
           </p>
         </motion.div>
         <motion.div className="project" variants={h2variant}>
-          <a href="/" target="_blank"><h2>Mental Health Compass</h2></a>
+          <a href="/" target="_blank"><h2>Happyfy</h2></a>
           <p><FontAwesomeIcon icon={faCircleInfo} className="icon" />
-            Features assessment tool and mental health resources.
+          An online therapy platform , featuring chatbot functionality and
+          ambient sound integration . Enhanced user well-being through an intuitive, relaxing interface offering
+           emotional support . 
           </p>
           <p><FontAwesomeIcon icon={faCode} className="icon" />
-            MERN stack, Google Places API
+          React.js , Tailwind , Chipp , Javascript
+          </p>
+          <p><FontAwesomeIcon icon={faCalendarAlt} className="icon" />
+            2024
+          </p>
+          <p>
+          <FontAwesomeIcon icon={faGithub} className="icon" />
+            <a href="https://github.com/Dhruvlearns/Happyfy" target="_blank" rel="noopener noreferrer"
+          > Git Repository</a>
+          </p>
+        </motion.div>
+        <motion.div className="project" variants={h2variant}>
+          <a href="/" target="_blank"><h2>Password-Generator</h2></a>
+          <p><FontAwesomeIcon icon={faCircleInfo} className="icon" />
+          The generator creates unique passwords based on user preferences regarding length, complexity, and special characters. Integrated with Chrome for seamless user experience.
+          </p>
+          <p><FontAwesomeIcon icon={faCode} className="icon" />
+          HTML ,CSS ,JavaScript
           </p>
           <p><FontAwesomeIcon icon={faCalendarAlt} className="icon" />
             2023
           </p>
           <p>
           <FontAwesomeIcon icon={faGithub} className="icon" />
-            <a href="/" target="_blank"> Git Repository</a>
+            <a href="https://dhruvlearns.github.io/PassWord-Generator/" target="_blank" rel="noopener noreferrer"
+          > Live Link</a>
           </p>
         </motion.div>
       </motion.section>
